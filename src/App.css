@@ -1,0 +1,67 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Global styles for better responsiveness */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive typography */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 1200px) {
+  .App {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 10px;
+  }
+
+  html {
+    font-size: 12px;
+  }
+}
