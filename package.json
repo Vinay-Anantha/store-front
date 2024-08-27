@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://vinay-anantha.github.io/store-front/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -34,5 +35,4 @@
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
   }
-  
 }
